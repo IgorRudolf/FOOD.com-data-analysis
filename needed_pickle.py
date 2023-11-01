@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = r'C:\Users\igorr\Documents\archive\ingr_map.pkl'
+file_path = r'your_path'
 
 with open(file_path, 'rb') as file:
     loaded_data = pd.read_pickle(file)
